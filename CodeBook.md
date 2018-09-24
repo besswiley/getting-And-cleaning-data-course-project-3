@@ -45,10 +45,3 @@ Clarifying variables
 Creates new data set with subject and activity means
 Removes avg and stdev for non-aggregated sub and act columns
 Writes tidy data to text file
-
-
-## Dataset structure
-#str(tidydata)
-
-## Summary of variables
-#summary(tidydata)
