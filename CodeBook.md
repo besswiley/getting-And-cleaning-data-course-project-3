@@ -1,7 +1,5 @@
-### Title: "Codebook"
-### Author: "Allen Brown"
-### Date: "2018-09-23"
-### Output:run_analysis.R
+## Codebook
+This is a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data.
 
 ## Project Description
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. 
