@@ -31,17 +31,31 @@ y_test.txt: A vector of 2947 integers, denoting the ID of the activity related t
 
 
 ## Guide to create the tidy data file
-Loads activity data sets from test and train within working directory;
-Loads subject data sets from test and train;
-Loads features data sets from test and train;
-Combines activity, subject, and features sets from test and train respectively;
-Merges the training and the test sets to create one data set.;
-Changes factor levels(1-6) to match activity labels;
-Names activity and subject columns;
-Names feature columns from features text file;
-Selects columns with mean and standard deviation data and subsetting;
-Combines data sets with activity names and labels;
-Clarifying variables;
-Creates new data set with subject and activity means;
-Removes avg and stdev for non-aggregated sub and act columns;
-Writes tidy data to text file;
+1. Loads activity data sets from test and train within working directory
+
+2. Loads subject data sets from test and train.
+
+3. Loads features data sets from test and train.
+
+4. Combines activity, subject, and features sets from test and train respectively.
+
+5. Merges the training and the test sets to create one data set.
+
+6. Changes factor levels(1-6) to match activity labels.
+
+7. Names activity and subject columns.
+
+8. Names feature columns from features text file.
+
+9. Selects columns with mean and standard deviation data and subsetting.
+
+10. Combines data sets with activity names and labels.
+
+11. Clarifying variables.
+
+12.Creates new data set with subject and activity means.
+
+13.Removes avg and stdev for non-aggregated sub and act columns.
+
+14. Writes tidy data to text file.
+
