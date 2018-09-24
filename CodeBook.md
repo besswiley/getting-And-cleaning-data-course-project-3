@@ -1,7 +1,7 @@
-title: "Codebook"
-author: "Allen Brown"
-date: "2018-09-23"
-output:run_analysis.R
+# title: "Codebook"
+# author: "Allen Brown"
+# date: "2018-09-23"
+# output:run_analysis.R
 
 ## Project Description
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. 
@@ -35,7 +35,8 @@ y_test.txt: A vector of 2947 integers, denoting the ID of the activity related t
 ## Guide to create the tidy data file
 Loads activity data sets from test and train within working directory
 Loads subject data sets from test and train
-Loads features data sets from test and train#Combines activity, subject, and features sets from test and train respectively
+Loads features data sets from test and train
+Combines activity, subject, and features sets from test and train respectively
 Merges the training and the test sets to create one data set.
 Changes factor levels(1-6) to match activity labels
 Names activity and subject columns
@@ -49,7 +50,7 @@ Writes tidy data to text file
 
 
 ## Dataset structure
-str(tidydata)
+#str(tidydata)
 
 ## Summary of variables
-summary(tidydata)
+#summary(tidydata)
