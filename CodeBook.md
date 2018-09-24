@@ -1,7 +1,7 @@
-# title: "Codebook"
-# author: "Allen Brown"
-# date: "2018-09-23"
-# output:run_analysis.R
+### Title: "Codebook"
+### Author: "Allen Brown"
+### Date: "2018-09-23"
+### Output:run_analysis.R
 
 ## Project Description
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. 
