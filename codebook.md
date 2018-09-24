@@ -16,7 +16,7 @@ You will be required to submit: 1) a tidy data set as described below,
 |  You should also include a README.md in the repo with your scripts. 
 |  This repo explains how all of the scripts work and how they are connected.
 
-###Collection of the raw data
+##Collection of the raw data
 features.txt: Names of the 561 features.
 
 activity_labels.txt: Names and IDs for each of the 6 activities.
@@ -34,7 +34,7 @@ subject_test.txt: A vector of 2947 integers, denoting the ID of the volunteer re
 y_test.txt: A vector of 2947 integers, denoting the ID of the activity related to each of the observations in X_test.txt.
 
 
-###Guide to create the tidy data file
+##Guide to create the tidy data file
 Loads activity data sets from test and train within working directory
 Loads subject data sets from test and train
 Loads features data sets from test and train#Combines activity, subject, and features sets from test and train respectively
@@ -50,8 +50,8 @@ Removes avg and stdev for non-aggregated sub and act columns
 Writes tidy data to text file
 
 
-###Dataset structure
+##Dataset structure
 str(tidydata)
 
-###Summary of variables
+##Summary of variables
 summary(tidydata)
